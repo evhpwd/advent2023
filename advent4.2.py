@@ -10,7 +10,7 @@ def calcWins(card):
 
 with open('input4.txt', 'r') as inp:
 	cards = inp.read().split('\n')
-	wins = []		#
+	wins = []
 	total = 0
 	
 	for i in cards:
