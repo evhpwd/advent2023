@@ -13,7 +13,6 @@ int main() {
 		int firstNum = 0;
 		int lastNum = 0;
 		for (int i = 0; i < strlen(line); i++) {
-			//printf("%c\n", token[i]);
 			char curChar = line[i];
 			if (curChar >= '0' && curChar <= '9') {
 				if (firstNum == 0) {
